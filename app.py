@@ -435,7 +435,5 @@ def display_selected_data(selectedData, chart_dropdown, year):
 
     return fig
 
-
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0",
-    port=5000)
+    app.run_server(host="0.0.0.0")
